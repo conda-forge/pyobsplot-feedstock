@@ -1,5 +1,5 @@
 {% set name = "pyobsplot" %}
-{% set version = "0.3.8" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyobsplot-{{ version }}.tar.gz
-  sha256: 07d4ddd7116acc231736c123cc17e4c71fba0c0d928cc520c5ed31e0e8c24380
+  sha256: 6a63c076569e7a8446b8497ee558fb667b5e51feba2e77830c19dcc0123ea5a9
 
 build:
   noarch: python
@@ -21,11 +21,11 @@ requirements:
     - pip
   run:
     - python >=3.8.0,<4.0.0
-    - anywidget >=0.6.0,<0.7.0
+    - anywidget >=0.6.5,<0.7.0
     - pandas >=1.2.0
     - polars >=0.16.0
     - pyarrow >=11.0.0,<12.0.0
-    - ipywidgets >=8.0.0
+    - ipywidgets >=8.1.0
     - jupyterlab_widgets >=3.0.0
     - jupyterlab >=3.6.0
     - requests >=2.28.2,<3.0.0
