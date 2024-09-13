@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: Observable Plot in Jupyter notebooks and Quarto documents
 
+Documentation: https://juba.github.io/pyobsplot
+
 Current build status
 ====================
 
