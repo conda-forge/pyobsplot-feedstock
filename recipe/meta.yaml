@@ -1,5 +1,5 @@
 {% set name = "pyobsplot" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyobsplot-{{ version }}.tar.gz
-  sha256: beb7fa191e854a136e01766fa393f2939b4bfa372ed1ebd0d1a5e9b1ba88dc7f
+  sha256: c7724314dba8eba245e0c4446321ec9527a961b79ffbb9c35b797a0b0b42bf63
 
 build:
   noarch: python
