@@ -22,13 +22,13 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - anywidget >=0.9.13
+    - anywidget >=0.9.18
     - pandas >=2.0.0
     - polars >=1.4.1
     - requests
     # Use typst-py instead of typst, the latter is the native package and the former is python bindings
     - typst-py >=0.11.1
-    - pyarrow >=17.0.0
+    - pyarrow ==18.1.0
 
     # From anywidget[dev]
     - comm >=0.1.0
